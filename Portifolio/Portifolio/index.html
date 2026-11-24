@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Miguel Gueryke - Desenvolvedor</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/favicon.svg">
+
+  <!-- Fontes Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Folha de Estilo -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Link de acessibilidade para o teclado -->
+  <a href="#home" class="skip-link">Pular para a Home</a>
+
+  <!-- Navegação -->
+  <header id="topo" class="site-header" data-site-header>
+    <div class="container header-inner">
+      <a href="#home" class="brand-logo" aria-label="Miguel Gueryke - Página Inicial">
+        <span class="brand-mark" aria-hidden="true">&lt;/&gt;</span>
+        <span class="brand-text">Miguel Gueryke<span class="brand-accent">.dev</span></span>
+      </a>
+
+      <!-- Controle checkbox invisível -->
+      <input
+        type="checkbox"
+        id="nav-toggle"
+        class="nav-toggle-input"
+        aria-label="Abrir ou fechar menu de navegação"
+        data-nav-checkbox
+      >
+      <label
+        for="nav-toggle"
+        class="nav-toggle-btn"
+        aria-controls="primary-navigation"
+        data-nav-toggle
+      >
+        <span class="hamburger-lines" aria-hidden="true"></span>
+        <span class="sr-only">Menu</span>
+      </label>
+
+      <nav
+        id="primary-navigation"
+        class="primary-nav"
+        aria-label="Navegação principal"
+        data-nav-menu
+      >
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#home" class="nav-link" data-nav-link>Início</a>
+          </li>
+          <li class="nav-item">
+            <a href="#sobre" class="nav-link" data-nav-link>Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a href="#habilidades" class="nav-link" data-nav-link>Habilidades</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projetos" class="nav-link" data-nav-link>Projetos</a>
+          </li>
+          <li class="nav-item">
+            <a href="#experiencia" class="nav-link" data-nav-link>Experiências</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contato" class="nav-link" data-nav-link>Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+<section id="home" class="info">
+  <div class="container info-grid">
+<span class="badge">Disponível para novos projetos</span>
+<p class="info-subtitle">olá, meu nome é<strong> Miguel Gueryke Rodrigues de Melo </strong> e sou um aspirante a desenvolvedor de websites e gamedeveloper.</p> 
+<h1 class="info-title">"obter, evoluir e prosperar"</h1>
+<p class="info-text">Estou sempre em busca de novos desafios e oportunidades para crescer profissionalmente.</p>
+<div class="info-actions">
+  <a href="#projetos" class="btn btn-primary">ver projetos</a>
+  <a href="#contato" class="btn btn-secondary">entrar em contato</a>
+</div>
+  </div>
+</section>
+  </main>
+  <!-- nova section-->
+    
+    <section id="sobre" class="about">
+      <div class="container about-grid">
+        <div class="about-content">
+          <span class="badge"> sobre mim </span>
+          <h2 class="section-title">Unindo desenvolvimento web e criação de jogos</h2>
+          <p class="about-text">
+            Sou estudante e aspirante a desenvolvedor, focado em construir interfaces modernas para a web e experiências interativas no desenvolvimento de jogos.
+          </p>
+          <p class="about-text">
+            Acredito no aprendizado contínuo: busco dominar a lógica de programação, boas práticas de código e design responsivo para transformar ideias em projetos reais.
+          </p>
+          <div class="about-actions">
+            <a href="#habilidades" class="btn btn-secondary">ver habilidades</a>
+          </div>
+        </div>
+
+        <div class="about-cards">
+          <article class="about-card">
+            <span class="card-tag">01. Web Dev</span>
+            <h3 class="card-title">Interfaces & Estrutura</h3>
+            <p class="card-text">Criação de páginas semânticas, responsivas e focadas na experiência do usuário.</p>
+          </article>
+
+          <article class="about-card">
+            <span class="card-tag">02. Game Dev</span>
+            <h3 class="card-title">Lógica & Interatividade</h3>
+            <p class="card-text">Exploração de mecânicas, sistemas de jogo e criatividade aplicada ao código.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+</body>
+</html>
